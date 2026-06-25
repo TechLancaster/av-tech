@@ -42,7 +42,7 @@ graph TD
 
     CAP -->|USB| L3
 
-    WIRELESS -->|XLR / 1/4" Input| AUDIO_IF
+    WIRELESS -->|XLR / 1/4 Input| AUDIO_IF
     AUDIO_IF -->|USB| L3
     AUDIO_IF -->|Main Output| PA
 
