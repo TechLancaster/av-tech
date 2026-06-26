@@ -4,10 +4,13 @@ Describe/document the AV setup.
 ```mermaid
 
 graph TD
+    subgraph SpeakerRecording
+        PHONE[Cellphone Camera<br>Standalone]
+    end
+
     subgraph Inputs
         L1[Laptop 1<br>Video Source]
         L2[Laptop 2<br>Video Source<br>via Active Optical Cable]
-        PHONE[Cellphone Camera<br>Standalone]
     end
 
     subgraph Switching
