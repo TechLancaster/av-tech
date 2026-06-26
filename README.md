@@ -9,8 +9,8 @@ graph TD
     end
 
     subgraph Inputs
-        L1[Laptop 1<br>Video Source]
-        L2[Laptop 2<br>Video Source<br>via Active Optical Cable]
+        L2[Annountment Laptop<br>Video Source]
+        L1[Presenter Laptop<br>Video Source<br>via Active Optical Cable]
     end
 
     subgraph Switching
@@ -27,15 +27,15 @@ graph TD
 
     subgraph Capture_Setup
         CAP[HDMI Capture Box]
-        L3[Laptop 3<br>Recording / Streaming]
+        L3[Recording Laptop<br>Recording / Streaming]
         AUDIO_IF[USB Audio Interface]
         WIRELESS[Wireless Mic Set<br>Input]
         PA[PA System<br>Output]
     end
 
     %% Connections
-    L1 -->|HDMI| EX
-    L2 -->|Active Optical HDMI| EX
+    L2 -->|HDMI| EX
+    L1 -->|Active Optical HDMI| EX
 
     EX -->|HDMI| SPLIT
 
