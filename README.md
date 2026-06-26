@@ -36,7 +36,6 @@ graph TD
     %% Connections
     L1 -->|HDMI| EX
     L2 -->|Active Optical HDMI| EX
-    PHONE -.->|Optional / Wireless| EX
 
     EX -->|HDMI| SPLIT
 
